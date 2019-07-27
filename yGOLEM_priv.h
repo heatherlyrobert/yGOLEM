@@ -8,7 +8,7 @@
 
 #define     P_FOCUS     "RO (robotics)"
 #define     P_NICHE     "hx (hexapoda)"
-#define     P_PURPOSE   "wickedly accurate and useful hexapod visualization and simulation"
+#define     P_PURPOSE   "direct communication and feedback from robots"
 
 #define     P_NAMESAKE  "talos-automoton"
 #define     P_HERITAGE  "living statue made by hephaestus to protect the island of crete"
@@ -24,8 +24,8 @@
 
 #define     P_VERMAJOR  "0.--, getting ready for the big time"
 #define     P_VERMINOR  "0.6-, tying into arachne for real-time control"
-#define     P_VERNUM    "0.6a"
-#define     P_VERTXT    "updated femu flipping so that it drives correctly"
+#define     P_VERNUM    "0.6b"
+#define     P_VERTXT    "updated all servos for new eva ds3218s in patellas and tibias"
 
 #define     P_PRIORITY  "direct, simple, brief, vigorous, and lucid (h.w. fowler)"
 #define     P_PRINCIPAL "[grow a set] and build your wings on the way down (r. bradbury)"
@@ -52,13 +52,6 @@
 #include    <yLOG.h>                /* CUSTOM heatherly program logging       */
 #include    <ySTR.h>                /* CUSTOM heatherly string handling       */
 #include    <yKINE.h>               /* CUSTOM heatherly kinematics            */
-
-
-
-/*===[[ VERSION ]]========================================*/
-/* rapidly evolving version number to aid with visual change confirmation     */
-#define   YGOLEM_VER_NUM      "0.6a"
-#define   YGOLEM_VER_TXT      "updated femu flipping so that it drives correctly from arachne"
 
 
 

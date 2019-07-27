@@ -97,8 +97,8 @@ yGOLEM_open             (void)
    tcgetattr(fd, &s_oldtio);
    /*---(prepare new one)----------------*/
    bzero(&s_newtio, sizeof (tTERMIOS));
-   /*> s_newtio.c_cflag = B115200 | CS8 | CLOCAL | CREAD;                               <*/
-   s_newtio.c_cflag = B2400 | CS8 | CLOCAL | CREAD;
+   s_newtio.c_cflag = B115200 | CS8 | CLOCAL | CREAD;
+   /*> s_newtio.c_cflag = B2400 | CS8 | CLOCAL | CREAD;                               <*/
    cfsetispeed(&s_newtio, B115200);
    /*> cfsetispeed(&s_newtio, B2400);                                                   <*/
    cfsetospeed(&s_newtio, B115200);
